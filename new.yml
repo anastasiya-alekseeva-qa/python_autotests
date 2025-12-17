@@ -1,0 +1,4 @@
+default:
+  cache:
+    key: "${CI_COMMIT_REF_SLUG}-${CI_JOB_STAGE}"
+    policy: pull-push
